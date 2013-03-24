@@ -652,3 +652,52 @@ footer {
     text-decoration: underline;
   }
 }
+.petition-img {
+  background: url("../img/petition-img.png") repeat scroll 0 0 transparent;
+  height: 378px;
+  width: 563px;
+}
+.title {
+  font-family: dinmedium !important;
+  margin-bottom: 15px !important;
+  margin-left: 6px;
+}
+.petition-right {
+  box-shadow: 2px 3px 22px #BBBBBB inset;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding-top: 26px;
+  width: 42%;
+}
+.form {
+  background: url("../img/form-bg.png") repeat scroll 0 0 transparent;
+  height: 748px;
+  width: 416px;
+}
+.error {
+  margin: 100px auto;
+  text-align: center;
+  width: 980px;
+}
+.error h1{
+	font-size:45px;
+	color:#FF4E00;
+	
+	}
+	.error h2{
+	font-size:35px;
+	color:#FF4E00;
+	
+	}
+.error p {
+  color: #666666;
+  font-family: dinmedium;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.left-content.fullwidth {
+  margin-bottom: 50px;
+  text-align: justify;
+  width: 100%;
+}
