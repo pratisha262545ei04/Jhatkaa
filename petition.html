@@ -8,6 +8,20 @@
 <title>Petition</title>
 <link rel="stylesheet" href="css/style.css" />
 <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+ <script>
+  $(function() {
+var myPer = 223021;
+$("#progressbar").progressbar({ value: myPer, max: 500000 })
+    .children('.ui-progressbar-value')
+    .html(myPer )
+    .css("display", "block");	
+//$( "#progressbar" ).progressbar({ max: 1024 });
+	 });
+  
+  </script>  
 </head>
 <body>
 <header>
@@ -45,36 +59,143 @@
   </nav>
 </header>
 <div class="content-wrapper">
-<div class="left-content">
+<div class="left-content petition">
   <h1 class="title">End the war on women.</h1>
-  <div class="petition-img">
-  </div>
- 
- 
- 
- 
- 
- </div>
-<div class="right-content petition-right">
+  <div class="petition-img"> </div>
+  <div id="progressbar"></div>
   
-  <div class="form">
-  
-  <h3>PRESIDENT DILMA:</h3>
-  <h4>A GIFT FROM THE EQUALITY MOMS</h4>
-  
+  <span>223,021 messages sent to EU ministers, help us deliver 500,000</span>
+  <h1>End the war on women.</h1>
   
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur </p>
-  <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et consequat.</p>
+  <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="right-content petition-right">
+  <div class="form">
+    <h3>PRESIDENT DILMA:</h3>
+    <h4>A GIFT FROM THE EQUALITY MOMS</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur </p>
+    <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et consequat.</p>
+    <p style="text-align:center">Thank You</p>
+    <form id="contact-form">
+      <fieldset>
+        <ul>
+          <li>
+            <label for="name">Email ID*</label>
+            <input type="text" name="email" id="email" value="" />
+          </li>
+          <li>
+            <label for="email">First Name*</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="email">Last Name*</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="email"> Mobile No.</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="mailing-list">Please Indicate if you are an NRI</label>
+            <input type="checkbox" id="checkbox-2-1" class="regular-checkbox big-checkbox" />
+            <label for="checkbox-2-1"></label>
+            <label class="styled-select">
+              <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </label>
+          </li>
+          <legend>Please enter your Indian home address:</legend>
+          <li>
+            <label for="State"> State</label>
+            </label>
+             <label class="styled-select">
+              <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </label>
+          </li>
+          <li>
+            <label for="city"> City/Town/Village</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="city"> Postcode</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="mailing-list" class="subscribe ">Recieve Jhatkaa updates</label>
+            <input type="checkbox" id="checkbox-2-2" class="regular-checkbox big-checkbox" />
+            <label for="checkbox-2-2"></label>
+          </li>
+          <li>
+            <label class="disclaimer"> We will <a href="#">protect your privacy</a> and keep you up-to-date on our campaigns.</label>
+            <input type="submit" value="submit" class="submit" />
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+    
+    
+    
+     <!--<form id="user-form" >
+      <fieldset>
+        <ul>
+          <li>
+            <label for="name">Email ID*</label>
+            <input type="text" name="email" id="email" value="" />
+          </li>
+          <li>
+            <label for="email">First Name*</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+          <li>
+            <label for="email">Last Name*</label>
+            <input type="text" name="name" id="name" value="" />
+          </li>
+           <li>
+            <label class="disclaimer"> We will <a href="#">protect your privacy</a> and keep you up-to-date on our campaigns.</label>
+            <input type="submit" value="submit" class="submit" />
+          </li>
+          </ul>
+          </fieldset>
+          </form>-->
   </div>
 </div>
+</div>
+
 <div class="top-footer">
   <div class="border"></div>
-  <div class="border-text"><img src="img/what-happen.png" ></div>
+  <div class="border-text">WHAT'S HAPPENING RIGHT NOW?</div>
   <div class="border"></div>
-  <div class="footer-content"> <span class="orange">Kuntal chakrabarty</span> <span class="gray"> Donated Rs20,000/- for the movement. </span> <span class="thin"> 2mins ago</span> </div>
-  <div class="footer-content"> <span class="orange">Kuntal chakrabarty</span> <span class="gray"> Donated Rs20,000/- for the movement. </span> <span class="thin"> 2mins ago</span> </div>
-  <div class="footer-content"> <span class="orange">Kuntal chakrabarty</span> <span class="gray">Donated Rs20,000/- for the movement. </span> <span class="thin"> 2mins ago</span> </div>
-</div>
+<ul>
+  <li class="footer-content">
+      <span class="orange">Kuntal chakrabarty</span>
+      <span class="gray"> signed the <a href="#">End War on Women</a> petition.</span>
+      <span class="thin"> 2mins ago</span>
+  </li>
+</ul>
+<ul>
+  <li class="footer-content">
+      <span class="orange">Kuntal chakrabarty</span>
+      <span class="gray"> signed the <a href="#">End War on Women</a> petition.</span>
+      <span class="thin"> 2mins ago</span>
+  </li>
+</ul>
+<ul>
+  <li class="footer-content">
+      <span class="orange">Kuntal chakrabarty</span>
+      <span class="gray"> signed the <a href="#">End War on Women</a> petition.</span>
+      <span class="thin"> 2mins ago</span>
+  </li>
+</ul></div>
 <footer>
   <div class="bottom-footer">
     <div class="menu-footer">
