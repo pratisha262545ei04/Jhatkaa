@@ -91,7 +91,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: none repeat scroll 0 0 #FF6600;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */

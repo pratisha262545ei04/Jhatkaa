@@ -76,7 +76,8 @@ table {
 
 body {
   background: url(../img/bg.png) repeat;
-  font-family: 'DINBold';
+  font-family: 'DINProMedium';
+  color:#666666;
 }
 
 .wrapper {
@@ -100,8 +101,10 @@ nav {
     }
   }
   ul {
-    float: left;
-    width: 68%;
+ 
+  float: left;
+  width: 49%;
+
     li a {
       &:hover {
         background: none repeat scroll 0 0 #F64203;
@@ -126,7 +129,7 @@ nav {
 
 .top-nav {
   > ul {
-    float: left;
+    float: right;
   }
   li {
     border-right: 1px solid #ff4f00;
@@ -140,7 +143,14 @@ nav {
     text-decoration: none;
   }
 }
-
+.top-footer li span {
+    display: block;
+    line-height: 27px;
+}
+.top-footer li {
+  float: left;
+  width: 33%;
+}
 .number {
   background: none repeat scroll 0 0 #FF4F00;
   border-bottom: 1px solid #a42d00;
@@ -165,7 +175,10 @@ nav {
 .join-now {
   float: right;
 }
-
+.top-nav {
+  float: left;
+  width: 47%;
+}
 #findbutton {
   border: medium none;
   border-radius: 2px 2px 2px 2px;
@@ -212,12 +225,21 @@ nav {
   width: 185px;
 }
 
-.banner {
-  background-image: url("../img/banner.png");
-  height: 416px;
-  background-repeat: no-repeat;
+.banner  {
+background: repeat scroll 0 0 transparent;
+position:relative;
+ 
   width: 100%;
-  margin: 0 auto;
+ 
+}
+h4 {
+  font-family: dinbold;
+  font-size: 33px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.banner > img {
+  width: 100%;
 }
 
 .banner_text {
@@ -232,11 +254,13 @@ nav {
     font-size: 35px;
     text-shadow: 1px 1px 0 #FFFFFF;
   }
+
   float: right;
-  position: relative;
+  position: absolute;
   right: 11%;
-  top: 30%;
+  top:15%;
   width: 39%;
+
   .button {
     background: none repeat scroll 0 0 #FF4B00;
     border: medium none;
@@ -251,8 +275,7 @@ nav {
     height: 100px;
     position: relative;
     right: 30px;
-    top: -31px;
-    width: 100px;
+top: 8px;    width: 100px;
   }
 }
 
@@ -302,14 +325,34 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-footer {
-  margin: 30px auto;
-  width: 980px;
+.social {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 2px 9px 2px #999999;
+  clear: both;
+  margin: 20px auto 0;
+  min-height: 900px;
+  padding: 30px 27px 27px;
+  width: 930px;
 }
-
+h3 {
+  color: #FF4E00;
+  font-size: 29px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.social > .left-content {
+  border-right: 1px dashed #999999;
+  width: 57%;
+}
+footer {
+  border-top: 2px dotted #FF6600;
+  clear: both;
+  margin: 20px auto 30px;
+  width: 980px;
+  padding-top: 15px;
+}
 .top-footer {
-  border-bottom: 3px dotted #FF6600;
   clear: both;
   height: 150px;
   margin: 0 auto;
@@ -407,7 +450,7 @@ footer {
 /*****************ABOUT****************************/
 
 .about-banner {
-  background: url("../img/about-banner.png") repeat scroll 0 0 transparent;
+background: repeat scroll 0 0 transparent;
   height: 339px;
   margin: 0 auto;
   width: 980px;
@@ -442,6 +485,12 @@ footer {
   margin-bottom: 30px;
   width: 58%;
 }
+.join-now > span {
+    display: block;
+    position: absolute;
+    top: 143px;
+    z-index: 1;
+}
 
 .content-wrapper {
   width: 980px;
@@ -452,7 +501,7 @@ footer {
   width: 980px;
 }
 
-.left-content > {
+
   h1 {
     color: #FF4E00;
     font-family: dinbold;
@@ -471,13 +520,12 @@ footer {
     color: #6B6B6B;
     font-family: dinpromedium;
     font-size: 15px;
-    line-height: 19px;
+  
+  line-height: 19px;
   }
-}
 
 .right-content {
   float: left;
-  min-height: 572px;
   width: 42%;
 }
 
@@ -660,14 +708,16 @@ footer {
   }
 }
 .petition-img {
-  background: url("../img/petition-img.png") repeat scroll 0 0 transparent;
+  background: repeat scroll 0 0 transparent;
   height: 378px;
   width: 563px;
 }
-.title {
-  font-family: dinmedium !important;
-  margin-bottom: 15px !important;
-  margin-left: 6px;
+h2 {
+  color: #999999;
+  font-family: dinmedium;
+  font-size: 31px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .petition-right {
   box-shadow: 2px 3px 22px #BBBBBB inset;
@@ -964,11 +1014,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
   margin-left: 15px;
   margin-top: 10px;
 }
-.petition h1 {
-  color: #6B6B6B;
-  font-family: dinmedium;
-  margin-left: 10px;
-}
+
 .left-content.petition > p {
   margin-left: 15px;
   width: 80%;
@@ -984,3 +1030,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
     font-family: inherit;
     text-decoration: none;
 }
+.error-msg {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #FF4F00;
+  float: left;
+  font-family: dinmedium;
+  font-size: 14px;
+  height: 22px;
+  line-height: 10px;
+  margin-top: 3px;
+  padding-left: 10px;
+  padding-top: 13px;
+  position: relative;
+  width: 18%;
+}
+
+.nav-footer > ul {
+  width: 71%;
+}
+
