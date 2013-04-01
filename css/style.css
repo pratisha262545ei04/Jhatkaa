@@ -927,3 +927,36 @@ h2 {
 
 .nav-footer > ul {
   width: 71%; }
+
+.border-left {
+  padding-left: 4%; }
+
+.border-right {
+  border-right: 1px dashed #6B6B6B;
+  width: 53%; }
+
+.socialmedia {
+  margin-top: 50px; }
+
+.media-desc {
+  float: left;
+  font-family: dinbold;
+  font-size: 15px;
+  width: 50%; }
+
+.media-count {
+  float: left;
+  width: 100%; }
+
+.fb, .twitter, .mail {
+  float: left;
+  position: relative;
+  width: 50%; }
+
+.count {
+  color: #5972A5;
+  font-family: dinbold;
+  font-size: 22px;
+  position: absolute;
+  right: 38px;
+  top: 9px; }
