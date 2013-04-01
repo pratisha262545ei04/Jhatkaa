@@ -149,7 +149,8 @@ nav {
 }
 .top-footer li {
   float: left;
-  width: 33%;
+  margin-left: 3%;
+  width: 30%;
 }
 .number {
   background: none repeat scroll 0 0 #FF4F00;
@@ -229,8 +230,8 @@ nav {
 background: repeat scroll 0 0 transparent;
 position:relative;
  
-  width: 100%;
- 
+/*  width: 100%;
+*/ 
 }
 h4 {
   font-family: dinbold;
@@ -1084,3 +1085,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
   right: 38px;
   top: 9px;
 }
+.button{
+	text-decoration:none;}
