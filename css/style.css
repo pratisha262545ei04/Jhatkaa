@@ -67,7 +67,7 @@ body {
 .logo {
   float: left;
   margin-top: 15px;
-  width: 46%; }
+  width: 50%; }
 
 nav {
   background: #ff4f00;
@@ -140,7 +140,7 @@ nav {
 
 .top-nav {
   float: left;
-  width: 54%; }
+  width: 50%; }
 
 #findbutton {
   border: medium none;
@@ -187,10 +187,10 @@ nav {
   width: 185px; }
 
 .banner {
-  background: repeat scroll 0 0 transparent;
+  background: none repeat scroll 0 0 transparent;
+  margin: 0 auto;
   position: relative;
-  /*  width: 100%;
-  */ }
+  width: 100%; }
 
 h4 {
   font-family: dinbold;
