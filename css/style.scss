@@ -84,13 +84,11 @@ body {
   width: 980px;
   margin: 0 auto;
 }
-
 .logo {
-  width: 53%;
   float: left;
   margin-top: 15px;
+  width: 46%;
 }
-
 nav {
   background: #ff4f00;
   height: 40px;
@@ -129,7 +127,7 @@ nav {
 
 .top-nav {
   > ul {
-    float: right;
+    float: left;
   }
   li {
     border-right: 1px solid #ff4f00;
@@ -175,10 +173,11 @@ nav {
 
 .join-now {
   float: right;
+  margin-right: 8px;
 }
 .top-nav {
   float: left;
-  width: 47%;
+  width: 54%;
 }
 #findbutton {
   border: medium none;

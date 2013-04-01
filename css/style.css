@@ -65,9 +65,9 @@ body {
   margin: 0 auto; }
 
 .logo {
-  width: 53%;
   float: left;
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 46%; }
 
 nav {
   background: #ff4f00;
@@ -97,7 +97,7 @@ nav {
   height: 100px; }
 
 .top-nav > ul {
-  float: right; }
+  float: left; }
 .top-nav li {
   border-right: 1px solid #ff4f00;
   float: left;
@@ -135,11 +135,12 @@ nav {
   border-right: 1px solid #a42d00; }
 
 .join-now {
-  float: right; }
+  float: right;
+  margin-right: 8px; }
 
 .top-nav {
   float: left;
-  width: 47%; }
+  width: 54%; }
 
 #findbutton {
   border: medium none;
