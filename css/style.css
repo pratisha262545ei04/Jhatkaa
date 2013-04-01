@@ -106,7 +106,8 @@ nav {
   color: #FF4F00;
   font-size: 14px;
   padding: 0 12px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: dinbold; }
 
 .top-footer li span {
   display: block;
@@ -122,32 +123,28 @@ nav {
   border-bottom: 1px solid #a42d00;
   padding-bottom: 0; }
   .number > li {
-    border-left: 1px solid #a42d00;
-    border-right: 1px solid #E73D00;
+    border-right: 1px solid #E83D00;
     color: #FFFFFF;
-    padding: 5px 10px; }
+    font-family: dinmedium;
+    font-size: 18px;
+    padding: 2px 7px; }
 
 .top-nav li:last-child {
   border: medium none; }
-
-.number > li:last-child {
-  border-left: 1px solid #a42d00;
-  border-right: 1px solid #a42d00; }
 
 .join-now {
   float: right;
   margin-right: 8px; }
 
 .top-nav {
-  float: left;
-  width: 50%; }
+  float: right; }
 
 #findbutton {
   border: medium none;
   border-radius: 2px 2px 2px 2px;
   color: #FF4E00;
-  font-family: inherit;
-  font-size: 14px;
+  font-family: dinbold;
+  font-size: 15px;
   font-size-adjust: inherit;
   font-stretch: inherit;
   font-style: inherit;
@@ -155,7 +152,7 @@ nav {
   font-weight: inherit;
   height: 36px;
   line-height: inherit;
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 2px;
   text-transform: uppercase;
   width: 105px;
@@ -205,8 +202,10 @@ h4 {
   float: right;
   position: absolute;
   right: 11%;
-  top: 15%;
-  width: 39%; }
+  top: 21%;
+  width: 39%;
+  color: #000000;
+  text-shadow: 1px 1px #CCCCCC; }
   .banner_text p {
     font-size: 14px;
     position: relative;
@@ -216,26 +215,33 @@ h4 {
   .banner_text h1 {
     font-size: 35px;
     text-shadow: 1px 1px 0 #FFFFFF; }
-  .banner_text .button {
-    background: none repeat scroll 0 0 #FF4B00;
-    border: medium none;
-    border-radius: 50px 50px 50px 50px;
-    box-shadow: 0 0 18px 7px #DB1D02 inset;
-    color: #FFFFFF;
-    line-height: 90px;
-    text-align: center;
-    float: right;
-    font-family: dinbold;
-    font-size: 20px;
-    height: 100px;
-    position: relative;
-    right: 30px;
-    top: 8px;
-    width: 100px; }
+
+.button {
+  background: none repeat scroll 0 0 #FF4B00;
+  border: medium none;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 0 10px 7px #DB1D02 inset;
+  color: #FFFFFF;
+  float: right;
+  font-family: dinbold;
+  font-size: 20px;
+  height: 100px;
+  line-height: 94px;
+  position: relative;
+  right: 13px;
+  text-align: center;
+  text-shadow: none;
+  top: 2px;
+  width: 100px; }
 
 @media screen and (min-width: 1400px) {
   .banner {
     width: 1400px; } }
+.banner-desc {
+  float: left;
+  margin-top: 10px;
+  width: 73%; }
+
 .bx-caption .button {
   background: none repeat scroll 0 0 #FF4B00;
   border: medium none;
