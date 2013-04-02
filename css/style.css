@@ -1068,7 +1068,8 @@ textarea {
   float: left;
   font-family: dinbold;
   font-size: 15px;
-  width: 50%; }
+  margin-left: 18px;
+  width: 45%; }
 
 .media-count {
   float: left;
@@ -1082,9 +1083,9 @@ textarea {
 .count {
   color: #5972A5;
   font-family: dinbold;
-  font-size: 22px;
+  font-size: 21px;
   position: absolute;
-  right: 38px;
+  right: 8px;
   top: 9px; }
 
 .button {
