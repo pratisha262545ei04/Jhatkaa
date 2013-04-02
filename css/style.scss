@@ -175,6 +175,7 @@ nav {
 .join-now {
   float: right;
   margin-right: 8px;
+  width: 305px;
 }
 .top-nav {
   float: right;
@@ -182,7 +183,9 @@ nav {
 #findbutton {
   border: medium none;
   border-radius: 2px 2px 2px 2px;
+  clear: both;
   color: #FF4E00;
+  float: right;
   font-family: dinbold;
   font-size: 15px;
   font-size-adjust: inherit;
@@ -190,12 +193,12 @@ nav {
   font-style: inherit;
   font-variant: inherit;
   font-weight: inherit;
-  height: 36px;
-  line-height: inherit;
-  margin-left: 0;
-  margin-top: 2px;
+  height: 34px;
+  margin-left: 5px;
+  margin-top: 3px;
   text-transform: uppercase;
   width: 105px;
+
 
   background: #fcfff4;
   /* Old browsers */
@@ -220,10 +223,31 @@ nav {
   color: #AAAAAA;
   font-family: dinmedium;
   font-size: 15px;
-  height: 28px;
+  height: 26px;
+  
+  margin-top: 3px;
   padding-left: 7px;
   padding-top: 5px;
   width: 185px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.email-field {
+  clear: both;
+  color: #AAAAAA;
+  font-family: dinmedium;
+  font-size: 15px;
+  height: 24px;
+  
+  margin-top: 3px;
+  padding-left: 7px;
+  padding-top: 5px;
+  width: 185px;
+}
+.join-now {
+float: right;
+margin-right: 8px;
+width: 310px;
+}
 }
 .banner {
   background: none repeat scroll 0 0 transparent;
@@ -254,13 +278,14 @@ h4 {
     text-shadow: 1px 1px 0 #FFFFFF;
   }
 
-  float: right;
-  position: absolute;
-  right: 11%;
-  top:21%;
-  width: 39%;
-    color: #000000;
-    text-shadow: 1px 1px #CCCCCC;
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+    float: right;
+    padding: 18px;
+    position: absolute;
+    right: 13.5%;;
+    top: 21%;
+    width: 39%;
 	
 }
 .button {
@@ -279,6 +304,13 @@ h4 {
     text-align: center;
     text-shadow: none;
 top: 2px;    width: 100px;
+}
+
+.button:hover,.bx-caption .button:hover {
+    background: none repeat scroll 0 0 #F7F7F7;
+    box-shadow: 0 0 10px 7px #E8EAE7 inset;
+    color: #FF4B00;
+	cursor:pointer;
 }
 
 @media screen and (min-width: 1400px) {
@@ -733,15 +765,25 @@ h2 {
   float: left;
   margin-bottom: 20px;
   margin-left: 0;
-  padding-top: 26px;
+  padding-top: 10px;
   width: 42%;
 }
-.form {
-  background: url("../img/form-bg.png") repeat scroll 0 0 transparent;
+.form:before{
+	
+	
+	}
+/*.form {
+ background: url("../img/form-bg.png") repeat scroll 0 0 transparent;
   height: 748px;
   width: 416px;
-}
 
+}*/
+.form {
+  background: none repeat scroll 0 0 #F8F1CD;
+  border: 10px solid #F5F5F5;
+  margin: 10px auto;
+  width: 360px;
+}
 .left-content.fullwidth {
   margin-bottom: 50px;
   text-align: justify;
@@ -785,7 +827,7 @@ h2 {
 }
 #contact-form li, #user-form li {
   margin-top: 7px;
-  width: 94%;
+  width: 100%;
 }
 #contact-form legend, #user-form legend {
   color: #999999;
