@@ -668,7 +668,7 @@ h2 {
   top: -8px;
   width: 419px; }
 
-.error {
+.form li span.error {
   color: red;
   display: inline-block;
   font-size: 13px;
