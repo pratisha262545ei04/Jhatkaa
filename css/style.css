@@ -809,9 +809,21 @@ textarea {
   border-radius: 3px 3px 3px 3px;
   color: #999999;
   padding-left: 5px;
-  width: 150px;
+  width: 176px;
   font-family: dinpromedium;
   vertical-align: top; }
+
+#member_action_comment_length_message {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 29%; }
+
+.counter {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 50%; }
 
 #contact-form input {
   border: 1px solid #cccccc;
