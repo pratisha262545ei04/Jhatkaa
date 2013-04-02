@@ -182,6 +182,7 @@ nav {
 }
 #findbutton {
   border: medium none;
+  cursor:pointer;
   border-radius: 2px 2px 2px 2px;
   clear: both;
   color: #FF4E00;
@@ -197,8 +198,8 @@ nav {
   margin-left: 5px;
   margin-top: 3px;
   text-transform: uppercase;
-  width: 105px;
-
+  width: 104px;
+  
 
   background: #fcfff4;
   /* Old browsers */
@@ -224,12 +225,12 @@ nav {
   font-family: dinmedium;
   font-size: 15px;
   height: 26px;
-  
   margin-top: 3px;
   padding-left: 7px;
   padding-top: 5px;
   width: 185px;
 }
+
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 .email-field {
   clear: both;
@@ -243,10 +244,13 @@ nav {
   padding-top: 5px;
   width: 185px;
 }
+#findbutton {
+	width:104px !important;
+}
 .join-now {
 float: right;
 margin-right: 8px;
-width: 310px;
+width: 311px !important; 
 }
 }
 .banner {
@@ -769,6 +773,7 @@ h2 {
   width: 42%;
 }
 .form:before{
+	background:url("../img/U pin icon.png") repeat scroll 0 0 transparent;
 	
 	
 	}
