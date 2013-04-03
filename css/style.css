@@ -264,9 +264,11 @@ h4 {
   color: #FF4B00;
   cursor: pointer; }
 
-@media screen and (min-width: 1400px) {
+/*@media screen and (min-width: 1400px) {
   .banner {
-    width: 1400px; } }
+    width: 1400px;
+  }
+}*/
 .banner-desc {
   float: left;
   margin-top: 10px;
