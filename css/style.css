@@ -316,7 +316,7 @@ h4 {
   clear: both;
   min-height: 680px !important;
   margin: 20px auto 0 !important;
-  padding: 30px 27px 27px;
+  padding: 50px 27px 27px;
   width: 930px; }
 
 h3 {
@@ -326,9 +326,9 @@ h3 {
   margin-top: 10px; }
 
 .social > .left-content {
-  padding-right: 6%;
-  text-align: justify;
-  width: 38%; }
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 34%; }
 
 footer {
   border-top: 2px dotted #FF6600;
@@ -1133,6 +1133,9 @@ textarea {
 .hyperlink-text {
   color: #FFFFFF;
   text-decoration: none; }
+
+.orange, .gray {
+  font-family: dinbold; }
 
 .left-content.petition h2 {
   margin-left: 15px;
