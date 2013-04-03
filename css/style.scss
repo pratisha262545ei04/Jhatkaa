@@ -386,7 +386,9 @@ h3 {
   margin-top: 10px;
 }
 .social > .left-content {
-  width: 53%;
+    padding-right: 6%;
+    text-align: justify;
+    width: 38%;
 }
 footer {
   border-top: 2px dotted #FF6600;
@@ -429,6 +431,9 @@ footer {
   font-size: 11px;
 }
 
+#contact-form li:last-child, #user-form li:last-child, #join-form li:last-child{
+  margin-top: 30px;
+}
 .nav-footer {
   float: left;
   width: 75%;
@@ -859,9 +864,27 @@ h2 {
   width: 130px;
    vertical-align: middle;
 }
-#contact-form li, #user-form li, #join-form li {
+#contact-form li, #user-form li {
   margin-top: 7px;
   width: 100%;
+}
+.left-content.border-right h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.twitter .count, .mail .count {
+    color: #39ACF8;
+}
+ #join-form li {
+  margin-top: 15px;
+  width: 73%;
+}
+.social span.error {
+    color: red;
+    display: block;
+    font-size: 14px;
+    text-align: right;
 }
 #contact-form legend, #user-form legend, #join-form legend {
   color: #999999;
@@ -875,23 +898,25 @@ h2 {
   width: 77% !important;
 }
 .disclaimer {
-  color: #999999 !important;
-  font-size: 13px !important;
-  width: 53% !important;
+    color: #999999 !important;
+    font-size: 13px !important;
+    width: 57% !important;
 }
 .disclaimer a {
   color: #2f57f6 !important;
  
 }
 .submit {
-  color: #FF4C00 !important;
-  font-family: dinbold;
-  height: 40px !important;
-  padding: 6px 20px !important;
-  text-transform: capitalize;
-  vertical-align: middle;
-  width: 120px !important;
-  cursor:pointer;
+    color: #FF4C00 !important;
+    cursor: pointer;
+    font-family: dinbold;
+    font-size: 18px;
+    height: 54px !important;
+    padding: 6px 20px !important;
+    text-transform: capitalize;
+    vertical-align: middle;
+    width: 126px !important;
+
   background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
@@ -945,7 +970,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-family: dinpromedium;
 }
 .social > .right-content.border-left {
-  width: 38%;
+    padding-left: 5%;
+    width: 48%;
 }
 .social .submit
 {width:37% !important}
@@ -1185,7 +1211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
 
 .border-left {
   padding-left: 4%;
-    border-left: 1px dashed #6B6B6B;
+    border-left: 1px dashed #cccccc;
 
 }
 .border-right {
@@ -1199,7 +1225,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
   font-family: dinbold;
   font-size: 15px;
   margin-left: 18px;
-  width: 45%;
+  margin-top: 5px;
+  width: 50%;
+}
+.left-content.border-right h4 {
+    color: #FF4E00;
+    font-size: 30px;
 }
 .media-count {
   float: left;
@@ -1208,15 +1239,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1600', end
 .fb, .twitter, .mail {
   float: left;
    position: relative;
-  width: 50%;
+  width:40%;
 }
 .count {
   color: #5972A5;
   font-family: dinbold;
   font-size: 21px;
   position: absolute;
-  right: 8px;
+ right: 8px;;
   top: 9px;
+}
+.hyperlink-text {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.left-content.petition h2 {
+  margin-left: 15px;
+  margin-top: 35px;
 }
 .button{
 	text-decoration:none;}
