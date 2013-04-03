@@ -379,6 +379,16 @@ top: 2px;    width: 100px;
   padding: 50px 27px 27px;
   width: 930px;
 }
+.join {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 2px 9px 2px #999999;
+  clear: both;
+     min-height: 680px !important;
+  margin: 20px auto 0 !important;
+  padding: 50px 27px 27px;
+  width: 930px;
+}
 h3 {
   color: #FF4E00;
   font-size: 29px;
@@ -389,6 +399,12 @@ h3 {
     padding-left: 3%;
     padding-right: 8%;
     width: 34%;
+}
+.join > .left-content {
+    padding-left: 3%;
+    padding-right: 6%;
+    text-align: justify;
+    width: 37%;
 }
 footer {
   border-top: 2px dotted #FF6600;
@@ -880,7 +896,7 @@ h2 {
   margin-top: 15px;
   width: 73%;
 }
-.social span.error {
+.join span.error {
     color: red;
     display: block;
     font-size: 14px;
@@ -973,7 +989,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding-left: 5%;
     width: 48%;
 }
-.social .submit
+.join > .right-content.border-left {
+    padding-left: 5%;
+    width: 48%;
+}
+
+.join .submit
 {width:37% !important}
 /*-----check box styling---*/
 
@@ -982,17 +1003,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .regular-checkbox {
 	display: none;
 }
-.social select {
+.join select {
   width: 230px;
 }
-.social label.styled-select {
+.join label.styled-select {
     width: 202px !important;
 }
-.social label.subscribe {
+.join label.subscribe {
     width: 83% !important;
 }
-.social label.styled-select select {
+.join label.styled-select select {
   width: 230px;
+}
+.join h3 {
+    font-size: 27px;
 }
 .regular-checkbox + label {
 	background-color: #fff;
